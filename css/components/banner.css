@@ -1,0 +1,42 @@
+.banner{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/imagens/young-smiling-african-man-standing-and-using-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+    border-bottom:solid 4px #1c1c1c;
+    
+}
+.banner .button{
+    color: white;
+    border-radius: 15px;
+    border: solid 1px #1c1c1c;
+    background-color: #474350;
+}
+
+.banner .button:hover{
+    transform:scale(1.05)
+}
+
+.banner .tittle{
+    color:white;
+}
+
+.banner .subtittle{
+    color: white;
+}
+
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 200px 0 0 150px;
+}
+.banner .navigation{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
