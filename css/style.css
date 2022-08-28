@@ -1,7 +1,7 @@
 
 .header-content{
     display: flex;
-    background-color: #474350;
+    background-color: #f4f7f5;
     height: 70px;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@ img{
     height: 50px;
 }
 a{
-    color: #fff; ;
+    color:#474350 ;
     font-family:   "roboto", Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-decoration: none;
@@ -26,11 +26,11 @@ a{
 }
 a:hover{
     border-radius: 15px;
-    border: solid 1px #fff;
+    border: solid 1px #474350;
     transition: 0.5s;
 }
 #button{
-    background-color:#1c1c1c ;
+    background-color ;
     display: inline-block;
 }
 
