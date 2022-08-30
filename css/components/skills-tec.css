@@ -1,0 +1,21 @@
+.skills-tec{
+    display: flex;
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    font-size: 30px;
+}
+
+.skills-tec .tittle{
+    margin-left: 20px;
+}
+
+.skills-tec .icon{
+    width: 60px;
+    height: 60px;
+}
+
+.skills-tec .right{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.main-tittle {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    color :white  ;
+    font-size: 50px;
+    text-shadow:3px 3px 2px #1c1c1c;   
+}
+
+.main-tittle.-second{
+    color: white;
+    text-shadow:  3px 3px 5px black;
+    text-align: center;
+}
