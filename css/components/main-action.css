@@ -1,4 +1,4 @@
-.action{
+.main-action{
     color:#474350 ;
     font-size: 20px;
     text-decoration: none;
@@ -8,7 +8,7 @@
     border: solid 1px transparent;
     padding: 10px;
 }
-.action:hover{
+.main-action:hover{
     border-radius: 15px;
     border: solid 1px #1c1c1c;
     transition: 0.5s;

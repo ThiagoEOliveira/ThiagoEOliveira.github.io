@@ -1,0 +1,15 @@
+.main-section{
+    height: 300px;
+    background-color: #474350;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    border-bottom:solid 3px white;
+}
+
+.main-section.-second{
+    height: 350px;
+    background-color: #1c1c1c;
+    justify-content: center;
+    
+}

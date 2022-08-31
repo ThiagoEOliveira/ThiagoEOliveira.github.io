@@ -13,45 +13,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/components/header.css">
-    <link rel="stylesheet" href="/css/components/banner.css">
-    <link rel="stylesheet" href="/css/components/box.css">
+    <link rel="stylesheet" href="/css/components/main-header.css">
+    <link rel="stylesheet" href="/css/components/main-banner.css">
+    <link rel="stylesheet" href="/css/components/main-box.css">
     <link rel="stylesheet" href="/css/components/main-tittle.css">
-    <link rel="stylesheet" href="css/components/subtittle.css">
-    <link rel="stylesheet" href="/css/components/button.css">
-    <link rel="stylesheet" href="/css/components/action.css">
-    <link rel="stylesheet" href="/css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-subtittle.css">
+    <link rel="stylesheet" href="/css/components/main-button.css">
+    <link rel="stylesheet" href="/css/components/main-action.css">
+    <link rel="stylesheet" href="/css/components/main-section.css">
     <link rel="stylesheet" href="/css/components/wrapper-skills.css">
     <link rel="stylesheet" href="/css/components/skills-tec.css">
+    <link rel="stylesheet" href="/css/components/card-wrapper.css">
+    <link rel="stylesheet" href="/css/components/card-project.css">
 
 
 </head>
 
 <body>
-    <header class="header-content">
+    <header class="main-header">
         <img src="/assets/imagens/logo.png" alt="">
         <nav>
-            <a class="action" href="#" lang="en">Skills</a>
-            <a class="action" href="#">Projetos</a>
-            <a class="action" href="#">Sobre</a>
-            <a class="action" href="#">Contato</a>
-            <a class="button" href="#" lang="en">Download CV</a>
+            <a class="main-action" href="#" lang="en">Skills</a>
+            <a class="main-action" href="#">Projetos</a>
+            <a class="main-action" href="#">Sobre</a>
+            <a class="main-action" href="#">Contato</a>
+            <a class="main-button" href="#" lang="en">Download CV</a>
         </nav>
     </header>
 
-    <section class="banner">
+    <section class="main-banner">
         <div class="wrapper">
-            <div class="box">
+            <div class="main-box">
                 <h1 class="main-tittle">Thiago Oliveira</h1>
-                <h2 class="subtittle">FrontEnd Developer</h2>
+                <h2 class="main-subtittle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
-                <a class="button" href="https://github.com/ThiagoEOliveira" target="_blank" lang="en">GitHub</a>
-                <a class="button" href="#">Contatos</a>
+                <a class="main-button" href="https://github.com/ThiagoEOliveira" target="_blank" lang="en">GitHub</a>
+                <a class="main-button" href="#">Contatos</a>
             </div>
         </div>
     </section>
-    <section class=section>
+    <section class=main-section>
         <h2 class="main-tittle -second">Skills</h2>
         <div class="wrapper-skills">
             <article class="skills-tec">
@@ -81,6 +83,23 @@
 
             </article>
         </div>
+    </section>
+
+    <section class="main-section -second">
+        <h2 class="main-tittle -second">Projetos</h2>
+        <div class="card-wrapper">
+            <figure class="card-project">
+                <a href=""><img class="logo" src="/assets/imagens/logo-firedlabs.png" alt="Logo FIracode"></a>
+            </figure>
+            <figure class="card-project">
+                <a href=""><img class="logo" src="/assets/imagens/logo-collabcode.png" alt="Logo FIracode"></a>
+            </figure>
+            <figure class="card-project">
+                <a href=""><img class="logo-1" src="/assets/imagens/portfolio.png" alt="Logo FIracode"></a>
+            </figure>
+        </div>
+
+
     </section>
 
 </body>

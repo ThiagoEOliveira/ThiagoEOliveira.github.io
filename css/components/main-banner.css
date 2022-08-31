@@ -1,4 +1,4 @@
-.banner{
+.main-banner{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -9,32 +9,32 @@
     border-bottom:solid 4px #1c1c1c;
     
 }
-.banner .button{
+.main-banner .main-button{
     color: white;
     border-radius: 15px;
     border: solid 1px #1c1c1c;
     background-color: #474350;
 }
 
-.banner .button:hover{
+.main-banner .main-button:hover{
     transform:scale(1.08)
 }
 
-.banner .tittle{
+.main-banner .tittle{
     color:white;
 }
 
-.banner .subtittle{
+.main-banner .main-subtittle{
     color: white;
 }
 
-.banner .wrapper{
+.main-banner .wrapper{
     display: flex;
     flex-direction: column;
     width: 400px;
     margin: 200px 0 0 150px;
 }
-.banner .navigation{
+.main-banner .navigation{
     display: flex;
     justify-content: space-around;
     margin-top: 30px;

@@ -1,4 +1,5 @@
-.subtittle {font-family: "roboto", Arial, Helvetica, sans-serif;
+.main-subtittle {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
     color:#474350;
     font-size: 30px;
     text-shadow:3px 3px 2px #1c1c1c;
